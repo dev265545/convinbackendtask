@@ -130,6 +130,7 @@ GOOGLE_OAUTH2_CLIENT_ID = os.environ.get('GOOGLE_OAUTH2_CLIENT_ID', '60692707066
 GOOGLE_OAUTH2_CLIENT_SECRET = os.environ.get('GOOGLE_OAUTH2_CLIENT_SECRET', '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')
 GOOGLE_OAUTH2_SCOPES = ['https://www.googleapis.com/auth/calendar.events.readonly']
 GOOGLE_OAUTH2_TOKEN_URI=  'https://oauth2.googleapis.com/token'
+SESSION_COOKIE_AGE =240
 GOOGLE_OAUTH2_CLIENT_CONFIG = {
     'web': {
         'client_id': GOOGLE_OAUTH2_CLIENT_ID,
